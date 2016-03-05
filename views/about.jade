@@ -1,0 +1,28 @@
+extends layout
+
+block content
+     div.container
+      div(class="row row-offcanvas row-offcanvas-right")
+        div(class="col-xs-12 col-sm-9")
+          h1 ABOUT
+
+          p This site is all about my chinese cooking heritage and trying to preserve it for myself,
+          as well as share it with other people. 
+
+        div(class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar")
+          img(src= '/images/dumpling_flipped.jpg', id='logo')
+          div.list-group
+            a(href="#", class="list-group-item active") Link
+            a(href="#", class="list-group-item") Link
+            a(href="#", class="list-group-item") Link
+            a(href="#", class="list-group-item") Link
+            a(href="#", class="list-group-item") Link
+            a(href="#", class="list-group-item") Link
+            a(href="#", class="list-group-item") Link
+            a(href="#", class="list-group-item") Link
+            a(href="#", class="list-group-item") Link
+            a(href="#", class="list-group-item") Link
+      hr
+
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js')
+    script(src='/bootstrap/js/bootstrap.min.js')  

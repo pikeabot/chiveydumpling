@@ -1,0 +1,62 @@
+extends layout
+
+block content
+
+
+    div.container
+      div(class="row row-offcanvas row-offcanvas-right")
+        div(class="col-xs-12 col-sm-9")
+          p(class="pull-right visible-xs")
+            button(type="button", class="btn btn-primary btn-xs", data-toggle="offcanvas")
+              Toggle nav
+            div.jumbotron
+              h1 Aaaand we're back!
+              p It's taken a bit of time but this is the Chivey Dumpling reboot. Refactored site, refactored code and refactored recipes. 
+          div.row
+            div(class="col-xs-6 col-lg-4")
+              h2 Chicken Dumplings
+              p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. 
+              p
+                a(class="btn btn-default", href="#", role="button") View details &raquo;
+            div(class="col-xs-6 col-lg-4")
+              h2 How to Make Dumpling Shells the Old Fashioned Way
+              p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. 
+              p
+                a(class="btn btn-default", href="#", role="button") View details &raquo;
+            div(class="col-xs-6 col-lg-4")
+              h2 How to Make Steamed Bun Shells 
+              p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. 
+              p
+                a(class="btn btn-default", href="#", role="button") View details &raquo;
+            div(class="col-xs-6 col-lg-4")
+              h2 Steamed Red Bean Paste Buns
+              p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. 
+              p
+                a(class="btn btn-default", href="#", role="button") View details &raquo;
+            div(class="col-xs-6 col-lg-4")
+              h2 Pork Dumplings
+              p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. 
+              p
+                a(class="btn btn-default", href="#", role="button") View details &raquo;
+            div(class="col-xs-6 col-lg-4")
+              h2 Vegetarian Dumplings
+              p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. 
+              p
+                a(class="btn btn-default", href="#", role="button") View details &raquo;
+
+        div(class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar")
+          img(src= '/images/dumpling_flipped.jpg', id='logo')
+          div.list-group
+            a(href="#", class="list-group-item active") Chicken
+            a(href="#", class="list-group-item") Pork
+            a(href="#", class="list-group-item") Beef
+            a(href="#", class="list-group-item") Veg
+            a(href="#", class="list-group-item") Noodles
+            a(href="#", class="list-group-item") Rice
+            a(href="#", class="list-group-item") Dumplings
+            a(href="#", class="list-group-item") Buns!
+            a(href="#", class="list-group-item") The Uncategorizable
+      hr
+
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js')
+    script(src='/bootstrap/js/bootstrap.min.js')  
